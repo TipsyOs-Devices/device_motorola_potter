@@ -141,6 +141,13 @@ static char *camera_fixup_setparams(int id, const char *settings)
 #endif
 
     params.set("zsl", "on");
+    params.set("visionfw", "on");
+    params.set("pdaf-control-mode", "on");
+    params.set("af-roi-enabled", "on");
+    params.set("auto-exposure", "frame-average");
+    params.set("dbg-log-aec", "frame-average");
+    params.set("dbg-log-awb", "frame-average");
+    params.set("dbg-log-af", "on");
 
 #if !LOG_NDEBUG
     ALOGV("%s: fixed parameters:", __FUNCTION__);
