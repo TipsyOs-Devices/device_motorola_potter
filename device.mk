@@ -130,8 +130,8 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 # Display Calibration
-# PRODUCT_PACKAGES += \
-#    libjni_livedisplay
+PRODUCT_PACKAGES += \
+    libjni_livedisplay
 
 # DRM
 PRODUCT_PACKAGES += \
